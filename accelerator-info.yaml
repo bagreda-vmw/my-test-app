@@ -1,0 +1,23 @@
+id: 3c4e45d0-ec22-46b7-9917-95e9032b9a5f
+timestamp: 2024-05-14T23:34:41.141Z
+source: VSCODE
+username: bagreda
+options:
+  projectName: my-test-app
+  buildTool: maven
+  ide: intellij
+  springBootVersion: 3.2
+  nativeBuild: false
+  javaVersion: 17
+  includeBuildToolWrapper: true
+  includeDevContainer: false
+  bsGitRepository: github.com?owner=bagreda-vmw&repo=my-test-app
+  bsGitBranch: main
+accelerator:
+  name: tanzu-java-web-app
+fragments:
+  - name: build-wrapper-gradle
+  - name: build-wrapper-maven
+  - name: devcontainer
+  - name: java-version
+  - name: tap-workload
